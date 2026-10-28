@@ -1,20 +1,24 @@
+
 # .gitignore
-__pycache__/
-*.py[cod]
+# Example output directory created by the tool
 *$py.class
-.pytest_cache/
+*.egg-info/
+*.py[cod]
+*.pyc
+*.swo
+*.swp
+.DS_Store
 .coverage
-htmlcov/
+.env
+.env.*
+.pytest_cache/
 .tox/
 .venv/
-venv/
-.env
-*.egg-info/
-dist/
+__pycache__/
 build/
-*.swp
-*.swo
-.DS_Store
-
-# Example output directory created by the tool
+dist/
+dist/*.tmp
+htmlcov/
+node_modules/
 split_games/
+venv/
